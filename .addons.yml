@@ -1,0 +1,8 @@
+---
+channel: stable
+addons:
+  node-red:
+    repository: hassio-addons/addon-node-red
+    target: node-red
+    image: ghcr.io/hassio-addons/node-red/{arch}
+  
