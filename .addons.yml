@@ -5,4 +5,7 @@ addons:
     repository: hassio-addons/addon-node-red
     target: node-red
     image: ghcr.io/hassio-addons/node-red/{arch}
-  
+  vscode:
+    repository: hassio-addons/addon-vscode
+    target: vscode
+    image: ghcr.io/hassio-addons/vscode/{arch}
